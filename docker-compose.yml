@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  fifthregion-service:
+    image: actors:latest
+    ports:
+      - 9090:9090

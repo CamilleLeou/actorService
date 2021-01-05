@@ -32,9 +32,9 @@ public class ActorController {
 
     @RequestMapping(value = "/recommended")
     public String readingList(){
-        return "Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt)";
+        return "Cloud Native Java (O'Reilly)";
     }
-
+//Spring in Action (Manning), ... , Learning Spring Boot (Packt)
 
 
 
